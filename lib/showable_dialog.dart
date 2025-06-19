@@ -1,3 +1,1 @@
-library showable_dialog;
-
-export 'src/annotation.dart';
+export "src/annotation.dart";

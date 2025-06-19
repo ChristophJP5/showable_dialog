@@ -1,4 +1,11 @@
-include: package:flutter_lints/flutter.yaml
+include: package:code_secure_flutter/analysis_options.yaml 
 
-# Additional information about this file can be found at
-# https://dart.dev/guides/language/analysis-options
+analyzer:
+  plugins:
+    - custom_lint
+    
+# configure the custom lint rules
+custom_lint:
+  rules:
+    - require_parameter_assert:
+      error_severity: Warning
