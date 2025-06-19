@@ -1,0 +1,7 @@
+builders:
+  showable_dialog:
+    import: "package:showable_dialog/builder.dart"
+    builder_factories: ["showableDialogBuilder"]
+    build_extensions: {".dart": [".showable.g.dart"]}
+    auto_apply: dependents
+    build_to: source
